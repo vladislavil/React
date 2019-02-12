@@ -33,6 +33,13 @@ export default class Article extends Component {
             isOpen: !this.state.isOpen
         });
     }
+
+    // toggleOpen(ev) {
+    //     console.log(".....", ev.nativeEvent);
+    //     this.setState({
+    //         isOpen: !this.state.isOpen
+    //     });
+    // }
 }
 
 // export default function Article(props) {
